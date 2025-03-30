@@ -220,6 +220,7 @@ span{
 
 .services-container{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 2rem;
@@ -232,6 +233,7 @@ span{
     padding: 3rem;
     border-radius: 2rem;
     border: 0.3rem solid var(--bg-color);
+    flex:  1 1 30rem;
 
 }
 .services-box:hover{
@@ -277,6 +279,7 @@ span{
 
 .test-container{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 4rem;
@@ -452,11 +455,11 @@ span{
         padding: 7rem;
     }
 
-    .test .test-boxes{
+    .test .test-box{
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .contact form .input-boxes input{
+    .contact form .input-box input{
         width: 100%;
     }
     .footer{
@@ -466,7 +469,7 @@ span{
 }
 
 @media (max-width: 991px){
-    #mwnu-icon{
+    #menu-icon{
         display: block;
     }
     .navbar {
@@ -505,8 +508,9 @@ span{
         margin-left: 1rem;
     }
     .home-img img{
-        width: 70vw;
+        width: 50vw;
         margin-top: 4rem;
+        margin-bottom: 10rem;
     }
 
     .about{
@@ -514,6 +518,37 @@ span{
     }
 
     .about-img img {
-        
+        width: 50vw;
+        margin-top: 4rem;
+        margin-bottom: 10rem;
+
     }
+    .services h2{
+        margin-bottom: 3rem;
+    }
+
+}
+@media (max-width:617px) {
+    .home-img img {
+        width: 70vw;
+        margin-top: 8rem;
+        margin-bottom: 10rem;
+
+
+    }
+    .about-img img {
+        width: 70vw;
+        margin-top: 4rem;
+        margin-bottom: 10rem;
+
+    }
+
+}
+
+@media (max-width:617px){
+    html{
+        font-size: 50%;
+    }
+
+
 }
