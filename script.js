@@ -18,3 +18,4 @@ window.onscroll = () => {
     backDelay: 1200,
     loop: true,
   });
+  
