@@ -11,7 +11,7 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 }
 
- const typed = new Typed('.multiple-text', {
+const typed = new Typed('.multiple-text', {
     strings: ['Frontend Developer', 'Backend Developer', 'App Developer'],
     typeSpeed: 80,
     backSpeed: 80,
